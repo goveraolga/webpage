@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Govera — Handmade Luxury Dresses</title>
+  <meta name="description" content="Handmade luxury dresses, designed and sewn by hand for women who appreciate elegance and uniqueness. Custom orders welcome.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-i18n-title="title_home">
+
+  <!-- Navigation -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="nav__brand" href="index.html">Govera<span>.</span></a>
+      <div class="nav__right">
+        <nav>
+          <ul class="nav__links" id="primary-nav">
+            <li><a href="index.html" aria-current="page" data-i18n="nav_home">Home</a></li>
+            <li><a href="gallery.html" data-i18n="nav_gallery">Gallery</a></li>
+            <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="lang-toggle" data-lang-toggle aria-label="Change language"></button>
+        <button class="nav__toggle" data-i18n-aria-label="menu" aria-label="Menu" aria-expanded="false" aria-controls="primary-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <p class="eyebrow" style="color:#e9dcc7" data-i18n="hero_eyebrow">Handmade · Bespoke · Timeless</p>
+      <h1 data-i18n="hero_title">Handmade luxury dresses</h1>
+      <p data-i18n="hero_desc">Each dress is carefully designed and sewn by hand, created individually for women who appreciate elegance and uniqueness.</p>
+      <a class="btn btn-light" href="gallery.html" data-i18n="hero_cta">View Collection</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section section--alt" id="about">
+    <div class="container about reveal">
+      <div class="about__media">
+        <img src="assets/images/about.jpg" alt="The atelier — handmade craftsmanship"
+             onerror="this.onerror=null;this.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent('<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 400 500\'><rect width=\'400\' height=\'500\' fill=\'%23e0d2c1\'/><text x=\'200\' y=\'255\' text-anchor=\'middle\' fill=\'%238c6d3f\' font-family=\'Georgia,serif\' font-size=\'26\' font-style=\'italic\'>Atelier</text></svg>')">
+      </div>
+      <div>
+        <p class="eyebrow" data-i18n="about_eyebrow">The Maker</p>
+        <h2 data-i18n="about_title">Sewn by hand, made for you</h2>
+        <p data-i18n="about_p1">I create handmade dresses with attention to every detail. Every piece is sewn personally and can be customized according to the client's wishes.</p>
+        <p data-i18n="about_p2">What began as a passion for craftsmanship has become a small atelier devoted to elegance — slow fashion, made to last, made to feel like yours alone.</p>
+        <p class="about__sign">— Olga</p>
+        <a class="btn btn-outline" href="contact.html" style="margin-top:1rem" data-i18n="about_cta">Request a custom piece</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured carousel -->
+  <section class="section">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow" data-i18n="feat_eyebrow">Selected Pieces</p>
+        <h2 data-i18n="feat_title">Featured dresses</h2>
+        <p data-i18n="feat_desc">A rotating selection from the collection. Tap any dress to view it up close.</p>
+      </div>
+      <div class="carousel reveal" data-carousel>
+        <button class="carousel__btn carousel__btn--prev" data-i18n-aria-label="prev" aria-label="Previous">&#8249;</button>
+        <div class="carousel__viewport">
+          <div class="carousel__track"></div>
+        </div>
+        <button class="carousel__btn carousel__btn--next" data-i18n-aria-label="next" aria-label="Next">&#8250;</button>
+        <div class="carousel__dots"></div>
+      </div>
+      <div style="text-align:center;margin-top:2.6rem">
+        <a class="btn btn-primary" href="gallery.html" data-i18n="feat_cta">View Full Collection</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__brand">Govera<span>.</span></div>
+      <ul class="footer__links">
+        <li><a href="index.html" data-i18n="footer_home">Home</a></li>
+        <li><a href="gallery.html" data-i18n="nav_gallery">Gallery</a></li>
+        <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+      <small>&copy; <span id="year">2026</span> Govera · <span data-i18n="footer_tagline">Handmade luxury dresses</span></small>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

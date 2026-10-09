@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery — Govera Handmade Luxury Dresses</title>
+  <meta name="description" content="Browse the full collection of handmade luxury dresses. Tap any piece to view it in detail.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-i18n-title="title_gallery">
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="nav__brand" href="index.html">Govera<span>.</span></a>
+      <div class="nav__right">
+        <nav>
+          <ul class="nav__links" id="primary-nav">
+            <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+            <li><a href="gallery.html" aria-current="page" data-i18n="nav_gallery">Gallery</a></li>
+            <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="lang-toggle" data-lang-toggle aria-label="Change language"></button>
+        <button class="nav__toggle" data-i18n-aria-label="menu" aria-label="Menu" aria-expanded="false" aria-controls="primary-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow" data-i18n="gallery_eyebrow">The Collection</p>
+        <h2 data-i18n="gallery_title">Gallery</h2>
+        <p data-i18n="gallery_desc">Every dress is handmade and one of a kind. Tap any piece to view it full screen — swipe or use the arrows to browse.</p>
+      </div>
+      <div class="grid reveal" data-gallery></div>
+      <div style="text-align:center;margin-top:3rem">
+        <a class="btn btn-primary" href="contact.html" data-i18n="gallery_cta">Enquire or order a custom piece</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__brand">Govera<span>.</span></div>
+      <ul class="footer__links">
+        <li><a href="index.html" data-i18n="footer_home">Home</a></li>
+        <li><a href="gallery.html" data-i18n="nav_gallery">Gallery</a></li>
+        <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+      <small>&copy; <span id="year">2026</span> Govera · <span data-i18n="footer_tagline">Handmade luxury dresses</span></small>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
