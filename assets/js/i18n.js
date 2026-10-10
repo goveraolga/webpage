@@ -22,7 +22,7 @@
 
       nav_home: "Home", nav_gallery: "Gallery", nav_contact: "Contact",
 
-      hero_eyebrow: "Handmade · Bespoke · Timeless",
+      hero_eyebrow: "<span class=\"nowrap\">Handmade ·</span> <span class=\"nowrap\">Bespoke ·</span> <span class=\"nowrap\">Timeless</span>",
       hero_title:   "Handmade luxury dresses",
       hero_desc:    "Each dress is carefully designed and sewn by hand, created individually for women who appreciate elegance and uniqueness.",
       hero_cta:     "View Collection",
@@ -68,7 +68,7 @@
 
       nav_home: "Strona główna", nav_gallery: "Galeria", nav_contact: "Kontakt",
 
-      hero_eyebrow: "Ręcznie szyte · Na zamówienie · Ponadczasowe",
+      hero_eyebrow: "<span class=\"nowrap\">Ręcznie szyte ·</span> <span class=\"nowrap\">Na zamówienie ·</span> <span class=\"nowrap\">Ponadczasowe</span>",
       hero_title:   "Ręcznie szyte luksusowe sukienki",
       hero_desc:    "Każda sukienka jest starannie zaprojektowana i uszyta ręcznie, tworzona indywidualnie dla kobiet, które cenią elegancję i wyjątkowość.",
       hero_cta:     "Zobacz kolekcję",

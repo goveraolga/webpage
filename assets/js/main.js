@@ -197,7 +197,7 @@
       media.appendChild(makeImg(p, idx < 3));
       const body = document.createElement("div");
       body.className = "card__body";
-      body.innerHTML = `<h3 class="card__name">${p.name}</h3><p class="card__tag">${p.tag}</p>`;
+      body.innerHTML = `<h3 class="card__name">${p.name}</h3>` + (p.tag ? `<p class="card__tag">${p.tag}</p>` : "");
       card.append(media, body);
       const open = () => lightbox.open(featured, idx);
       card.addEventListener("click", open);

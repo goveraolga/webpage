@@ -17,11 +17,12 @@
    ========================================================= */
 
 const PRODUCTS = [
-  { id: "01", name: "Nice Beach",     tag: "Summer",   img: "assets/images/dress-01-nice-beach.jpg" },
-  { id: "02", name: "Łódeczki na Plaży", tag: "Summer", img: "assets/images/dress-02-lodeczki-na-plazy.jpg" },
-  { id: "03", name: "Morze",          tag: "Summer",   img: "assets/images/dress-03-morze.jpg" },
-  { id: "04", name: "Jeziorko",       tag: "Daywear",  img: "assets/images/dress-04-jeziorko-lodzczki-lasek.jpg" },
-  { id: "05", name: "Górki i Laski",  tag: "Daywear",  img: "assets/images/dress-05-gorki-laski-itp.jpg" },
-  { id: "06", name: "Lasek",          tag: "Daywear",  img: "assets/images/dress-06-lasek-kolo.jpg" },
-  { id: "07", name: "Black & White",  tag: "Evening",  img: "assets/images/dress-07-black-and-white-ludzkiki.jpg" },
+  { id: "01", name: "Photo 1", img: "assets/images/photo-01.jpg" },
+  { id: "02", name: "Photo 2", img: "assets/images/photo-02.jpg" },
+  { id: "03", name: "Photo 3", img: "assets/images/photo-03.jpg" },
+  { id: "04", name: "Photo 4", img: "assets/images/photo-04.jpg" },
+  { id: "05", name: "Photo 5", img: "assets/images/photo-05.jpg" },
+  { id: "06", name: "Photo 6", img: "assets/images/photo-06.jpg" },
+  { id: "07", name: "Photo 7", img: "assets/images/photo-07.jpg" },
+  { id: "08", name: "Photo 8", img: "assets/images/photo-08.jpg" },
 ];

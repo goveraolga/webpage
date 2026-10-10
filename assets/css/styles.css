@@ -51,6 +51,8 @@ h1, h2, h3 {
   letter-spacing: 0.01em;
 }
 
+.nowrap { white-space: nowrap; }
+
 .container {
   width: 100%;
   max-width: var(--maxw);
@@ -125,6 +127,7 @@ h1, h2, h3 {
   align-items: center;
   gap: 2.2rem;
   list-style: none;
+  padding: 0;
 }
 .nav__links a {
   font-size: 0.78rem;
